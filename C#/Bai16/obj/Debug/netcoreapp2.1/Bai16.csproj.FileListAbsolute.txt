@@ -1,0 +1,11 @@
+D:\C#\Bai16\bin\Debug\netcoreapp2.1\Bai16.deps.json
+D:\C#\Bai16\bin\Debug\netcoreapp2.1\Bai16.runtimeconfig.json
+D:\C#\Bai16\bin\Debug\netcoreapp2.1\Bai16.runtimeconfig.dev.json
+D:\C#\Bai16\bin\Debug\netcoreapp2.1\Bai16.dll
+D:\C#\Bai16\bin\Debug\netcoreapp2.1\Bai16.pdb
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.csprojAssemblyReference.cache
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.csproj.CoreCompileInputs.cache
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.AssemblyInfoInputs.cache
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.AssemblyInfo.cs
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.dll
+D:\C#\Bai16\obj\Debug\netcoreapp2.1\Bai16.pdb

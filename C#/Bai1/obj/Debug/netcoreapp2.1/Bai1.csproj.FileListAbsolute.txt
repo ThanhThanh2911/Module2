@@ -1,0 +1,11 @@
+D:\C#\Bai1\bin\Debug\netcoreapp2.1\Bai1.deps.json
+D:\C#\Bai1\bin\Debug\netcoreapp2.1\Bai1.runtimeconfig.json
+D:\C#\Bai1\bin\Debug\netcoreapp2.1\Bai1.runtimeconfig.dev.json
+D:\C#\Bai1\bin\Debug\netcoreapp2.1\Bai1.dll
+D:\C#\Bai1\bin\Debug\netcoreapp2.1\Bai1.pdb
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.csprojAssemblyReference.cache
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.csproj.CoreCompileInputs.cache
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.AssemblyInfoInputs.cache
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.AssemblyInfo.cs
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.dll
+D:\C#\Bai1\obj\Debug\netcoreapp2.1\Bai1.pdb

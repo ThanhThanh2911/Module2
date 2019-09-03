@@ -1,0 +1,10 @@
+D:\C#\Bai18\bin\Debug\netcoreapp2.1\Bai18.deps.json
+D:\C#\Bai18\bin\Debug\netcoreapp2.1\Bai18.runtimeconfig.json
+D:\C#\Bai18\bin\Debug\netcoreapp2.1\Bai18.runtimeconfig.dev.json
+D:\C#\Bai18\bin\Debug\netcoreapp2.1\Bai18.dll
+D:\C#\Bai18\bin\Debug\netcoreapp2.1\Bai18.pdb
+D:\C#\Bai18\obj\Debug\netcoreapp2.1\Bai18.csproj.CoreCompileInputs.cache
+D:\C#\Bai18\obj\Debug\netcoreapp2.1\Bai18.AssemblyInfoInputs.cache
+D:\C#\Bai18\obj\Debug\netcoreapp2.1\Bai18.AssemblyInfo.cs
+D:\C#\Bai18\obj\Debug\netcoreapp2.1\Bai18.dll
+D:\C#\Bai18\obj\Debug\netcoreapp2.1\Bai18.pdb

@@ -1,0 +1,10 @@
+D:\C#\Bai5\bin\Debug\netcoreapp2.1\Bai5.deps.json
+D:\C#\Bai5\bin\Debug\netcoreapp2.1\Bai5.runtimeconfig.json
+D:\C#\Bai5\bin\Debug\netcoreapp2.1\Bai5.runtimeconfig.dev.json
+D:\C#\Bai5\bin\Debug\netcoreapp2.1\Bai5.dll
+D:\C#\Bai5\bin\Debug\netcoreapp2.1\Bai5.pdb
+D:\C#\Bai5\obj\Debug\netcoreapp2.1\Bai5.csproj.CoreCompileInputs.cache
+D:\C#\Bai5\obj\Debug\netcoreapp2.1\Bai5.AssemblyInfoInputs.cache
+D:\C#\Bai5\obj\Debug\netcoreapp2.1\Bai5.AssemblyInfo.cs
+D:\C#\Bai5\obj\Debug\netcoreapp2.1\Bai5.dll
+D:\C#\Bai5\obj\Debug\netcoreapp2.1\Bai5.pdb
