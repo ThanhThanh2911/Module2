@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Bai2\\Bai2.csproj",
+      "projectUniqueName": "E:\\Module2\\C#\\Bai2\\Bai2.csproj",
       "projectName": "Bai2",
-      "projectPath": "D:\\C#\\Bai2\\Bai2.csproj",
+      "projectPath": "E:\\Module2\\C#\\Bai2\\Bai2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Bai2\\obj\\",
+      "outputPath": "E:\\Module2\\C#\\Bai2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

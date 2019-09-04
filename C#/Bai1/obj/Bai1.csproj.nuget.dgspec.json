@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Bai1\\Bai1.csproj": {}
+    "E:\\Module2\\C#\\Bai1\\Bai1.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Bai1\\Bai1.csproj": {
+    "E:\\Module2\\C#\\Bai1\\Bai1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Bai1\\Bai1.csproj",
+        "projectUniqueName": "E:\\Module2\\C#\\Bai1\\Bai1.csproj",
         "projectName": "Bai1",
-        "projectPath": "D:\\C#\\Bai1\\Bai1.csproj",
+        "projectPath": "E:\\Module2\\C#\\Bai1\\Bai1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Bai1\\obj\\",
+        "outputPath": "E:\\Module2\\C#\\Bai1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
