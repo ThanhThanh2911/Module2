@@ -1,0 +1,11 @@
+E:\Module2\Basic Exercises\Bai39\bin\Debug\netcoreapp2.1\Bai39.deps.json
+E:\Module2\Basic Exercises\Bai39\bin\Debug\netcoreapp2.1\Bai39.runtimeconfig.json
+E:\Module2\Basic Exercises\Bai39\bin\Debug\netcoreapp2.1\Bai39.runtimeconfig.dev.json
+E:\Module2\Basic Exercises\Bai39\bin\Debug\netcoreapp2.1\Bai39.dll
+E:\Module2\Basic Exercises\Bai39\bin\Debug\netcoreapp2.1\Bai39.pdb
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.csprojAssemblyReference.cache
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.csproj.CoreCompileInputs.cache
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.AssemblyInfoInputs.cache
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.AssemblyInfo.cs
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.dll
+E:\Module2\Basic Exercises\Bai39\obj\Debug\netcoreapp2.1\Bai39.pdb

@@ -1,0 +1,11 @@
+E:\Module2\Object\Object\Shapes\bin\Debug\netcoreapp2.1\Shapes.deps.json
+E:\Module2\Object\Object\Shapes\bin\Debug\netcoreapp2.1\Shapes.runtimeconfig.json
+E:\Module2\Object\Object\Shapes\bin\Debug\netcoreapp2.1\Shapes.runtimeconfig.dev.json
+E:\Module2\Object\Object\Shapes\bin\Debug\netcoreapp2.1\Shapes.dll
+E:\Module2\Object\Object\Shapes\bin\Debug\netcoreapp2.1\Shapes.pdb
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.csprojAssemblyReference.cache
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.csproj.CoreCompileInputs.cache
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.AssemblyInfoInputs.cache
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.AssemblyInfo.cs
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.dll
+E:\Module2\Object\Object\Shapes\obj\Debug\netcoreapp2.1\Shapes.pdb
