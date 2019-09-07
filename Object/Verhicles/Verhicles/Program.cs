@@ -25,6 +25,7 @@ namespace Verhicles
                         for (int i = 0; i < n; i++)
                         {
                             bike1 = new Bike();
+                            Console.WriteLine("ID: {0}", i + 1);
                             Console.Write("Speed: ");
                             bike1.Speed = Int32.Parse(Console.ReadLine());
                             Console.Write("Make: ");
@@ -49,6 +50,7 @@ namespace Verhicles
                         for (int i=0; i<m; i++)
                         {
                             car1 = new Car();
+                            Console.WriteLine("ID: {0}", i + 1);
                             Console.Write("Speed: ");
                             car1.Speed = Int32.Parse(Console.ReadLine());
                             Console.Write("Make: ");
