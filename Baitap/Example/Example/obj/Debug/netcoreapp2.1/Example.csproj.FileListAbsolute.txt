@@ -1,0 +1,11 @@
+E:\Module2\Baitap\Example\Example\bin\Debug\netcoreapp2.1\Example.deps.json
+E:\Module2\Baitap\Example\Example\bin\Debug\netcoreapp2.1\Example.runtimeconfig.json
+E:\Module2\Baitap\Example\Example\bin\Debug\netcoreapp2.1\Example.runtimeconfig.dev.json
+E:\Module2\Baitap\Example\Example\bin\Debug\netcoreapp2.1\Example.dll
+E:\Module2\Baitap\Example\Example\bin\Debug\netcoreapp2.1\Example.pdb
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.csprojAssemblyReference.cache
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.csproj.CoreCompileInputs.cache
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.AssemblyInfoInputs.cache
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.AssemblyInfo.cs
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.dll
+E:\Module2\Baitap\Example\Example\obj\Debug\netcoreapp2.1\Example.pdb

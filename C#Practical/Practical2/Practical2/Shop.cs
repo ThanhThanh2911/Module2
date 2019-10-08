@@ -17,28 +17,40 @@ namespace Practical2
         {
             listProduct = new List<Product>();
         }
-        public void AddProduct()
+        public void AddProduct(Product product)
         {
-            Product product = new Product();
+            //Product product = new Product();
             Console.Write("Nhập tên của sản phẩm: ");
             product.Name = Console.ReadLine();
             Console.Write("Mô tả của sản phẩm: ");
             product.Description = Console.ReadLine();
-            Console.Write("Nhập giá của sản phẩm: ");
-            product.Price = Int32.Parse(Console.ReadLine());
+            //Console.Write("Nhập giá của sản phẩm: ");
+            //product.Price = Int32.Parse(Console.ReadLine());
+            do
+            {
+                Console.Write("Nhập giá của sản phẩm: ");
+                product.Price = Int32.Parse(Console.ReadLine());
+            } while (0 > product.Price && product.Price < 100);
+           
+            int[] Rate = new int[10];
+            int sum = 0;
+            for (int i = 0; i <10; i++)
+            {
+                Console.Write("Nhập đánh giá của sản phẩm(1-5): ");
+                product.Rate[i] = Int32.Parse(Console.ReadLine());
+                sum += product.Rate[i];
+            }
             listProduct.Add(product);
 
         }
 
 
-        public void RemoveProduct()
+        public void RemoveProduct(string name)
         {
             int size = listProduct.Count;
-            Console.Write("NHẬP TÊN SẢN PHẨM MUỐN XÓA: ");
-            string del = Console.ReadLine();
             for (int i = 0; i < size; i++)
             {
-                if(del == listProduct[i].Name)
+                if(name == listProduct[i].Name)
                 {
                     listProduct.Remove(listProduct[i]);
                 }
@@ -51,16 +63,12 @@ namespace Practical2
                 item.ViewInfor();
             }
         }
-        public void SearchProduct()
+        public void SearchProduct(double begin_price, double end_price)
         {
-            Console.Write("Nhập giá thứ nhất: ");
-            double begin = Int32.Parse(Console.ReadLine());
-            Console.Write("Nhập giá thứ hai: ");
-            double end = Int32.Parse(Console.ReadLine());
             int size = listProduct.Count;
             for (int i = 0; i < size; i++)
             {
-                if (begin < listProduct[i].Price && listProduct[i].Price < end)
+                if (begin_price < listProduct[i].Price && listProduct[i].Price < end_price)
                 {
                     listProduct[i].ViewInfor();
                 }

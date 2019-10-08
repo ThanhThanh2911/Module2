@@ -1,0 +1,9 @@
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.deps.json
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.dll
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.pdb
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.csprojAssemblyReference.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.csproj.CoreCompileInputs.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.AssemblyInfoInputs.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.AssemblyInfo.cs
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.dll
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Domain\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.pdb

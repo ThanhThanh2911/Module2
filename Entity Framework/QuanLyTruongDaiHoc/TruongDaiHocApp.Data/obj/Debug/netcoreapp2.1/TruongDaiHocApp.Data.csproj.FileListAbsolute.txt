@@ -1,0 +1,14 @@
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Data.deps.json
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Data.runtimeconfig.json
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Data.runtimeconfig.dev.json
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Data.dll
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Data.pdb
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.dll
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\bin\Debug\netcoreapp2.1\TruongDaiHocApp.Domain.pdb
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.csprojAssemblyReference.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.csproj.CoreCompileInputs.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.AssemblyInfoInputs.cache
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.AssemblyInfo.cs
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.csproj.CopyComplete
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.dll
+E:\Module2\Entity Framework\QuanLyTruongDaiHoc\TruongDaiHocApp.Data\obj\Debug\netcoreapp2.1\TruongDaiHocApp.Data.pdb

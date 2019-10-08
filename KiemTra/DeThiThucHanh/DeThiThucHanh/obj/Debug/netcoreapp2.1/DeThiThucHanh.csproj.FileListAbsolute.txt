@@ -1,0 +1,11 @@
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\bin\Debug\netcoreapp2.1\DeThiThucHanh.deps.json
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\bin\Debug\netcoreapp2.1\DeThiThucHanh.runtimeconfig.json
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\bin\Debug\netcoreapp2.1\DeThiThucHanh.runtimeconfig.dev.json
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\bin\Debug\netcoreapp2.1\DeThiThucHanh.dll
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\bin\Debug\netcoreapp2.1\DeThiThucHanh.pdb
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.csprojAssemblyReference.cache
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.csproj.CoreCompileInputs.cache
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.AssemblyInfoInputs.cache
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.AssemblyInfo.cs
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.dll
+E:\Module2\KiemTra\DeThiThucHanh\DeThiThucHanh\obj\Debug\netcoreapp2.1\DeThiThucHanh.pdb

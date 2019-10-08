@@ -1,0 +1,21 @@
+﻿@page
+@model MySelfApp.Pages.MySelf.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h2>List</h2>
+
+<table class = "table table-light">
+    @foreach (var myself in Model.Myselves)
+    {
+        <tbody>
+            <tr>
+                <td>@myself.Name</td>
+                <td>@myself.Location</td>
+                <td>@myself.MyselfType</td>
+            </tr>
+        </tbody>
+    }
+</table>
+<div>@Model.Message</div>

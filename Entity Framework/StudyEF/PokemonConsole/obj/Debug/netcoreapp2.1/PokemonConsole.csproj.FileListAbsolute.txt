@@ -1,0 +1,16 @@
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonConsole.deps.json
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonConsole.runtimeconfig.json
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonConsole.runtimeconfig.dev.json
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonConsole.dll
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonConsole.pdb
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.csprojAssemblyReference.cache
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.csproj.CoreCompileInputs.cache
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.AssemblyInfoInputs.cache
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.AssemblyInfo.cs
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.dll
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.pdb
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonApp.Data.dll
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonApp.Data.pdb
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\bin\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+E:\Module2\Entity Framework\StudyEF\PokemonConsole\obj\Debug\netcoreapp2.1\PokemonConsole.csproj.CopyComplete

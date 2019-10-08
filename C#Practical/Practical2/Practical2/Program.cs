@@ -15,27 +15,32 @@ namespace Practical2
                 Menu();
                 Console.Write("Nhập số: ");
                 num = Int32.Parse(Console.ReadLine());
+                Shop product1 = new Shop();
+                Product product2 = new Product();
                 switch (num)
                 {
                     case 1:
                         Console.Write("Nhập số lượng sản phẩm: ");
                         int n = Int32.Parse(Console.ReadLine());
-                        //Shop p = new Shop();
-                        //Product pr = new Product();
-                        //p.AddProduct(pr);
                         for (int i = 0; i < n; i++)
                         {
-                            product.AddProduct();
+                            product1.AddProduct(product2);
                         }
                         break;
                     case 2:
-                        product.RemoveProduct();
+                        Console.Write("NHẬP TÊN SẢN PHẨM MUỐN XÓA: ");
+                        string name = Console.ReadLine();
+                        product1.RemoveProduct(name);
                         break;
                     case 3:
-                        product.IterateProductList();
+                        product1.IterateProductList();
                         break;
                     case 4:
-                        product.SearchProduct();
+                        Console.Write("Nhập giá thứ nhất: ");
+                        double begin_price = Int32.Parse(Console.ReadLine());
+                        Console.Write("Nhập giá thứ hai: ");
+                        double end_price = Int32.Parse(Console.ReadLine());
+                        product1.SearchProduct(begin_price, end_price);
                         break;
                     case 5:
                         return;

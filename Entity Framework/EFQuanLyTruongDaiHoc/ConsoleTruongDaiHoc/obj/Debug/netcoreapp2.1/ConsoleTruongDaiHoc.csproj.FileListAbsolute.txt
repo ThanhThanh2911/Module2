@@ -1,0 +1,11 @@
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\bin\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.deps.json
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\bin\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.runtimeconfig.json
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\bin\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.runtimeconfig.dev.json
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\bin\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.dll
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\bin\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.pdb
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.csprojAssemblyReference.cache
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.csproj.CoreCompileInputs.cache
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.AssemblyInfoInputs.cache
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.AssemblyInfo.cs
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.dll
+E:\Module2\Entity Framework\EFQuanLyTruongDaiHoc\ConsoleTruongDaiHoc\obj\Debug\netcoreapp2.1\ConsoleTruongDaiHoc.pdb

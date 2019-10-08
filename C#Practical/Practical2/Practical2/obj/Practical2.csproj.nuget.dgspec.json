@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#Practical\\Practical2\\Practical2\\Practical2.csproj": {}
+    "E:\\Module2\\C#Practical\\Practical2\\Practical2\\Practical2.csproj": {}
   },
   "projects": {
-    "E:\\C#Practical\\Practical2\\Practical2\\Practical2.csproj": {
+    "E:\\Module2\\C#Practical\\Practical2\\Practical2\\Practical2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#Practical\\Practical2\\Practical2\\Practical2.csproj",
+        "projectUniqueName": "E:\\Module2\\C#Practical\\Practical2\\Practical2\\Practical2.csproj",
         "projectName": "Practical2",
-        "projectPath": "E:\\C#Practical\\Practical2\\Practical2\\Practical2.csproj",
+        "projectPath": "E:\\Module2\\C#Practical\\Practical2\\Practical2\\Practical2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\C#Practical\\Practical2\\Practical2\\obj\\",
+        "outputPath": "E:\\Module2\\C#Practical\\Practical2\\Practical2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

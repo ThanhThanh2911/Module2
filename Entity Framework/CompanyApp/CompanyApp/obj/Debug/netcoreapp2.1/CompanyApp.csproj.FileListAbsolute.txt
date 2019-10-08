@@ -1,0 +1,10 @@
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\bin\Debug\netcoreapp2.1\CompanyApp.deps.json
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\bin\Debug\netcoreapp2.1\CompanyApp.runtimeconfig.json
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\bin\Debug\netcoreapp2.1\CompanyApp.runtimeconfig.dev.json
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\bin\Debug\netcoreapp2.1\CompanyApp.dll
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\obj\Debug\netcoreapp2.1\CompanyApp.AssemblyInfoInputs.cache
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\obj\Debug\netcoreapp2.1\CompanyApp.AssemblyInfo.cs
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\bin\Debug\netcoreapp2.1\CompanyApp.pdb
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\obj\Debug\netcoreapp2.1\CompanyApp.dll
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\obj\Debug\netcoreapp2.1\CompanyApp.pdb
+E:\Module2\Entity Framework\CompanyApp\CompanyApp\obj\Debug\netcoreapp2.1\CompanyApp.csprojAssemblyReference.cache

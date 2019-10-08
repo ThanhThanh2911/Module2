@@ -1,0 +1,11 @@
+E:\Module2\Baitap\Pokemon\Pokemon\bin\Debug\netcoreapp2.1\Pokemon.deps.json
+E:\Module2\Baitap\Pokemon\Pokemon\bin\Debug\netcoreapp2.1\Pokemon.runtimeconfig.json
+E:\Module2\Baitap\Pokemon\Pokemon\bin\Debug\netcoreapp2.1\Pokemon.runtimeconfig.dev.json
+E:\Module2\Baitap\Pokemon\Pokemon\bin\Debug\netcoreapp2.1\Pokemon.dll
+E:\Module2\Baitap\Pokemon\Pokemon\bin\Debug\netcoreapp2.1\Pokemon.pdb
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.csprojAssemblyReference.cache
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.csproj.CoreCompileInputs.cache
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.AssemblyInfoInputs.cache
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.AssemblyInfo.cs
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.dll
+E:\Module2\Baitap\Pokemon\Pokemon\obj\Debug\netcoreapp2.1\Pokemon.pdb

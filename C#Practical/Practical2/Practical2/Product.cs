@@ -32,6 +32,7 @@ namespace Practical2
             Console.WriteLine("Tên sản phẩm: {0}", Name);
             Console.WriteLine("Mô tả sản phẩm: {0}", Description);
             Console.WriteLine("Giá của sản phẩm: {0}", Price);
+            Console.WriteLine("Đánh giá của sản phẩm: {0}", Rate);
         }
     }
 }

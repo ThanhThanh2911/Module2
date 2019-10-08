@@ -1,0 +1,8 @@
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\bin\Debug\netcoreapp3.0\Myself.deps.json
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\bin\Debug\netcoreapp3.0\Myself.dll
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\bin\Debug\netcoreapp3.0\Myself.pdb
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\obj\Debug\netcoreapp3.0\Myself.AssemblyInfoInputs.cache
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\obj\Debug\netcoreapp3.0\Myself.AssemblyInfo.cs
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\obj\Debug\netcoreapp3.0\Myself.dll
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\obj\Debug\netcoreapp3.0\Myself.pdb
+C:\Users\viettelstore.vn\source\repos\MySelfApp\Myself\obj\Debug\netcoreapp3.0\Myself.csprojAssemblyReference.cache

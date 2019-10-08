@@ -1,0 +1,11 @@
+E:\Module2\Baitap\Country\Country\bin\Debug\netcoreapp2.1\Country.deps.json
+E:\Module2\Baitap\Country\Country\bin\Debug\netcoreapp2.1\Country.runtimeconfig.json
+E:\Module2\Baitap\Country\Country\bin\Debug\netcoreapp2.1\Country.runtimeconfig.dev.json
+E:\Module2\Baitap\Country\Country\bin\Debug\netcoreapp2.1\Country.dll
+E:\Module2\Baitap\Country\Country\bin\Debug\netcoreapp2.1\Country.pdb
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.csprojAssemblyReference.cache
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.csproj.CoreCompileInputs.cache
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.AssemblyInfoInputs.cache
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.AssemblyInfo.cs
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.dll
+E:\Module2\Baitap\Country\Country\obj\Debug\netcoreapp2.1\Country.pdb
