@@ -1,0 +1,10 @@
+﻿@page
+@model MySelfApp.Pages.MySelf.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<form method="post">
+    <input type="hidden" asp-for="@Myself.Id" />
+</form>

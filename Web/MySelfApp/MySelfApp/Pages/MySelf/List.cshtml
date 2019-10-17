@@ -5,8 +5,15 @@
 }
 
 <h2>List</h2>
-
-<table class = "table table-light">
+<form method="get">
+    <div class="input-group">
+        <input type="search"asp-for="SearchKeyWord" />
+        <span>
+            <button class="btn btn-group-lg"><i class="fa fa-search" style="font-size:24px"></i></button>
+        </span>        
+    </div>
+</form>
+<table class = "table table-dark">
     @foreach (var myself in Model.Myselves)
     {
         <tbody>
@@ -14,6 +21,11 @@
                 <td>@myself.Name</td>
                 <td>@myself.Location</td>
                 <td>@myself.MyselfType</td>
+                <td>
+                    <a class="btn btn-light" asp-page="./Detail" asp-route-myselfId="@myself.Id"><i class="fa fa-search-plus"></i></a>
+                    <a class="btn btn-light" asp-page="./Delete" asp-route-myselfId="@myself.Id"><i class="fas fa-edit"></i></a>
+                    <a class="btn btn-light" asp-page="./Edit" asp-route-myselfId="@myself.Id"><i class="fa fa-car"></i></a>
+                </td>
             </tr>
         </tbody>
     }

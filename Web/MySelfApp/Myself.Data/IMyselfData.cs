@@ -7,7 +7,9 @@ namespace Myself.Data
 {
     public interface IMyselfData
     {
-        IEnumerable<Myself1> GetAll();
+        IEnumerable<Myself1> GetMyselvesByName(string name);
+        Myself1 GetById(int myselfId);
+        IEnumerable<Myself1> RemoveMyselvesByName(string name);
     }
 
     public class InMemoryMyselfData : IMyselfData
@@ -23,11 +25,27 @@ namespace Myself.Data
             };
         }
 
-        public IEnumerable<Myself1> GetAll()
+        public IEnumerable<Myself1> GetMyselvesByName(string name = null)
         {
             return from c in Myselves
+                   where string.IsNullOrEmpty(name) || c.Name.StartsWith(name)
                    orderby c.Name
                    select c;
+        }
+        public Myself1 GetById(int myselfId)
+        {
+            return Myselves.SingleOrDefault(c => c.Id == myselfId);
+        }
+        public IEnumerable<Myself1> RemoveMyselvesByName(string name)
+        {
+            foreach (var item in Myselves)
+            {
+                if (item.Name == name)
+                {
+                    Myselves.Remove(item);
+                }
+            }
+            return Myselves;
         }
     }
 

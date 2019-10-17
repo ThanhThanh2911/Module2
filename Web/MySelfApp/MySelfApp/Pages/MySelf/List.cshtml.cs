@@ -16,6 +16,9 @@ namespace MySelfApp.Pages.MySelf
         private readonly IMyselfData myselfData;
 
         public string Message { get; set; }
+
+        [BindProperty(SupportsGet =true)]
+        public string SearchKeyWord { get; set; }
         public IEnumerable<Myself1> Myselves { get; set; }
         //ctor
         public ListModel(IConfiguration config, IMyselfData myselfData)
@@ -26,7 +29,7 @@ namespace MySelfApp.Pages.MySelf
         public void OnGet()
         {
             Message = config["Message"];
-            Myselves = myselfData.GetAll();
+            Myselves = myselfData.GetMyselvesByName(SearchKeyWord);
         }
     }
 }

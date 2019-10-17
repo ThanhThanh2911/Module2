@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Module2\\Web\\MySelfApp\\Myself.Data\\Myself.Data.csproj",
+      "projectUniqueName": "E:\\Module2\\Module2\\Module2\\Web\\MySelfApp\\Myself.Data\\Myself.Data.csproj",
       "projectName": "Myself.Data",
-      "projectPath": "E:\\Module2\\Web\\MySelfApp\\Myself.Data\\Myself.Data.csproj",
+      "projectPath": "E:\\Module2\\Module2\\Module2\\Web\\MySelfApp\\Myself.Data\\Myself.Data.csproj",
       "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
-      "outputPath": "E:\\Module2\\Web\\MySelfApp\\Myself.Data\\obj\\",
+      "outputPath": "E:\\Module2\\Module2\\Module2\\Web\\MySelfApp\\Myself.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "E:\\Module2\\Web\\MySelfApp\\Myself\\Myself.csproj": {
-              "projectPath": "E:\\Module2\\Web\\MySelfApp\\Myself\\Myself.csproj"
+            "E:\\Module2\\Module2\\Module2\\Web\\MySelfApp\\Myself\\Myself.csproj": {
+              "projectPath": "E:\\Module2\\Module2\\Module2\\Web\\MySelfApp\\Myself\\Myself.csproj"
             }
           }
         }

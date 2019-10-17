@@ -1,0 +1,8 @@
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\bin\Debug\netcoreapp3.0\StudentModel.deps.json
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\bin\Debug\netcoreapp3.0\StudentModel.dll
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\bin\Debug\netcoreapp3.0\StudentModel.pdb
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\obj\Debug\netcoreapp3.0\StudentModel.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\obj\Debug\netcoreapp3.0\StudentModel.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\obj\Debug\netcoreapp3.0\StudentModel.dll
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\obj\Debug\netcoreapp3.0\StudentModel.pdb
+E:\Module2\Module2\Module2\Web\TestMVC\StudentModel\obj\Debug\netcoreapp3.0\StudentModel.csprojAssemblyReference.cache

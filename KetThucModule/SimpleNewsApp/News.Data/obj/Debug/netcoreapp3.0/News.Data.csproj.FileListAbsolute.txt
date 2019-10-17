@@ -1,0 +1,13 @@
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Data.deps.json
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Data.runtimeconfig.json
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Data.runtimeconfig.dev.json
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Data.dll
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Data.pdb
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Core.dll
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\bin\Debug\netcoreapp3.0\News.Core.pdb
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.AssemblyInfo.cs
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.csproj.CopyComplete
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.dll
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Data\obj\Debug\netcoreapp3.0\News.Data.pdb

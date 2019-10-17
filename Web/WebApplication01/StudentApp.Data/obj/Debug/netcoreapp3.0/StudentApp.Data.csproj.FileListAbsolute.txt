@@ -1,0 +1,13 @@
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Data.deps.json
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Data.runtimeconfig.json
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Data.runtimeconfig.dev.json
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Data.dll
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Data.pdb
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Core.dll
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\bin\Debug\netcoreapp3.0\StudentApp.Core.pdb
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.csproj.CopyComplete
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.dll
+E:\Module2\Module2\Module2\Web\WebApplication01\StudentApp.Data\obj\Debug\netcoreapp3.0\StudentApp.Data.pdb

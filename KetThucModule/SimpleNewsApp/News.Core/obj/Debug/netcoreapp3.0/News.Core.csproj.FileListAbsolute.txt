@@ -1,0 +1,8 @@
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\bin\Debug\netcoreapp3.0\News.Core.deps.json
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\bin\Debug\netcoreapp3.0\News.Core.dll
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\bin\Debug\netcoreapp3.0\News.Core.pdb
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\obj\Debug\netcoreapp3.0\News.Core.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\obj\Debug\netcoreapp3.0\News.Core.AssemblyInfo.cs
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\obj\Debug\netcoreapp3.0\News.Core.dll
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\obj\Debug\netcoreapp3.0\News.Core.pdb
+E:\Module2\Module2\Module2\KetThucModule\SimpleNewsApp\News.Core\obj\Debug\netcoreapp3.0\News.Core.csprojAssemblyReference.cache

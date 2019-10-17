@@ -1,0 +1,14 @@
+﻿@page 
+@model TestMVC.Pages.Students.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail @Model.Student.Name</h1>
+
+<h2>Id: @Model.Student.Id</h2>
+<h2>Name: @Model.Student.Name</h2>
+<h2>Phone: @Model.Student.Phone</h2>
+
+<a asp-page="./List">Back List</a>
+

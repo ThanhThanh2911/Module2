@@ -1,0 +1,13 @@
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentModel.dll
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentData.deps.json
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentData.runtimeconfig.json
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentData.runtimeconfig.dev.json
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentData.dll
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentData.pdb
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\bin\Debug\netcoreapp3.0\StudentModel.pdb
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.csproj.CopyComplete
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.dll
+E:\Module2\Module2\Module2\Web\TestMVC\StudentData\obj\Debug\netcoreapp3.0\StudentData.pdb

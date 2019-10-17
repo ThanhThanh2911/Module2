@@ -1,0 +1,26 @@
+﻿@page
+@model StudentApp.Pages.Students.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Student.Id" />
+
+    <div class="form-group">
+        <label asp-for="Student.Name"></label>
+        <input asp-for="Student.Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Student.Address"></label>
+        <input asp-for="Student.Address" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Student.Skill"></label>
+        <select asp-for="Student.Skill" asp-items="Model.Skills">
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

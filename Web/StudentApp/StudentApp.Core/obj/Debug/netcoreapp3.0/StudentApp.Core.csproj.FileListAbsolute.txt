@@ -1,0 +1,8 @@
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\bin\Debug\netcoreapp3.0\StudentApp.Core.deps.json
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\bin\Debug\netcoreapp3.0\StudentApp.Core.dll
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\bin\Debug\netcoreapp3.0\StudentApp.Core.pdb
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\obj\Debug\netcoreapp3.0\StudentApp.Core.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\obj\Debug\netcoreapp3.0\StudentApp.Core.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\obj\Debug\netcoreapp3.0\StudentApp.Core.dll
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\obj\Debug\netcoreapp3.0\StudentApp.Core.pdb
+E:\Module2\Module2\Module2\Web\StudentApp\StudentApp.Core\obj\Debug\netcoreapp3.0\StudentApp.Core.csprojAssemblyReference.cache

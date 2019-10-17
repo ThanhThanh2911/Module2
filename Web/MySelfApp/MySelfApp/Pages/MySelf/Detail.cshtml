@@ -1,0 +1,18 @@
+﻿@page "{myselfId:int}"
+@model MySelfApp.Pages.MySelf.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+<h2>@Model.Myself.Name</h2>
+<div>
+    Id: @Model.Myself.Id
+</div>
+<div>
+    Location: @Model.Myself.Location
+</div>
+<div>
+    Myself Type: @Model.Myself.MyselfType
+</div>
+

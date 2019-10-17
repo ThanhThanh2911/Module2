@@ -12,3 +12,16 @@ E:\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\On
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.csproj.CopyComplete
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.dll
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.pdb
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Data.deps.json
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Data.runtimeconfig.json
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Data.runtimeconfig.dev.json
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Data.dll
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Data.pdb
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Domain.dll
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\bin\Debug\netcoreapp2.1\OnePieceApp.Domain.pdb
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.csproj.CopyComplete
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.dll
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Data\obj\Debug\netcoreapp2.1\OnePieceApp.Data.pdb

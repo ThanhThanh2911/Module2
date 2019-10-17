@@ -1,0 +1,40 @@
+﻿@page
+@model StudentApp.Pages.Students.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+
+<h1>@Model.Message</h1>
+<form method="get">
+    <div>
+        <input type="search" asp-for="SearchKeyWord" />
+        <span>
+            <button>
+                <i class="fa fa-car" style="font-size:24px"></i>
+            </button>
+        </span>
+    </div>
+</form>
+<table class=" table table-dark">
+    
+    @foreach (var student in Model.Students)
+    {
+    <tr>
+        <td>@student.Name</td>
+        <td>@student.Address</td>
+        <td>@student.Skill</td>
+        <td>
+            <a class="btn btn-primary" asp-page="./Detail" asp-route-studentId="@student.Id">Detail</a>
+        </td>
+        <td>
+            <a class="btn btn-primary" asp-page="./Edit" asp-route-studentId="@student.Id">Edit</a>
+        </td>
+    </tr>
+    }
+</table>
+
+@section footer{ 
+<h3>I am  a Developer of Company CodeGym</h3>
+}
+

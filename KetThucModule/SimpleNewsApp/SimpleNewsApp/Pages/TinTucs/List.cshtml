@@ -1,0 +1,29 @@
+﻿@page
+@model SimpleNewsApp.Pages.TinTucs.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<table class="table-light">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">Tiêu Đề</th>
+            <th scope="col">Nội Dung</th>
+            <th scope="col">Ảnh Đại Diện</th>
+            <th scope="col">Thể loại</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    @foreach (var tintuc in Model.TinTucs)
+    {
+        <tr>
+            <td>@tintuc.TieuDe</td>
+            <td>@tintuc.NoiDung</td>
+            <td><img src="@Url.Content("~/img/"+tintuc.AnhDaiDien+".jpg")" alt="Alternate Text" height="42" width="42" /></td>
+            <td>@tintuc.TheLoais</td>
+        </tr>
+    }
+</table>
+

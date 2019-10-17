@@ -1,0 +1,34 @@
+﻿@model StudentMVC.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="StudentId" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="UrlImage"></label>
+        <input asp-for="UrlImage" />
+    </div>
+    <div class="form-group">
+        <label asp-for="History"></label>
+        <input asp-for="History" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Gender"></label>
+        <input asp-for="Gender" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GroupId"></label>
+        <input asp-for="GroupId" />
+    </div>
+    <button type="submit" class="btn btn-primary" >Save</button>
+    <a asp-action="List">Back List</a>
+</form>
+

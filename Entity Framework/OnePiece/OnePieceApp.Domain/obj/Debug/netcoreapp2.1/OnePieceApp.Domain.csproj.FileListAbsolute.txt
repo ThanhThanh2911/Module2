@@ -7,3 +7,11 @@ E:\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.dll
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.pdb
 E:\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\bin\Debug\netcoreapp2.1\OnePieceApp.Domain.deps.json
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\bin\Debug\netcoreapp2.1\OnePieceApp.Domain.dll
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\bin\Debug\netcoreapp2.1\OnePieceApp.Domain.pdb
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.csprojAssemblyReference.cache
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.AssemblyInfoInputs.cache
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.AssemblyInfo.cs
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.dll
+E:\Module2\Module2\Module2\Entity Framework\OnePiece\OnePieceApp.Domain\obj\Debug\netcoreapp2.1\OnePieceApp.Domain.pdb
