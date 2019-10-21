@@ -6,43 +6,61 @@
 }
 
 
-<style>
-    .imgDd{
-    height: 100px;
-    width: 100px;
-}
-</style>
+@*<style>
+        .imgDd{
+        height: 100px;
+        width: 100px;
+    }
+    </style>*@
 
 @*<h1>@ViewBag.student </h1>*@
 <h1>@Model.student</h1>
 
+<form method="get">
 
-<table class="table table-light">
-    <thead>
-        <tr>
-            <th>Lớp</th>
-            <th>Họ và tên</th>
-            <th>Lịch Sử</th>
-            <th>Giới  Tính</th>
-            <th>Ảnh đại diện</th>
-            <th>  </th>
-        </tr>
-    </thead>
-    @foreach (var student in Model.Students)
-    {
-        <tr>
-            <td>@student.Group.GroupName</td>
-            <td>@student.Name</td>
-            <td>@student.History</td>
-            <td>@student.Gender</td>
-            <td><img class="imgDd" src="@student.UrlImage" alt="" /></td>
-            <td>
-                <a class="btn btn-primary" asp-controller="Student" asp-action="Detail" asp-route-id="@student.StudentId">Detail</a>
-                <a class="btn btn-primary" asp-controller="Student" asp-action="Edit" asp-route-id="@student.StudentId">Edit</a>
-            </td>
+    <div class="input-group">
+        <input type="search" asp-for="name" />
+        <span>
+            <button ><i class="fa fa-search" style="font-size: 20px"></i></button>
+        </span>
+    </div>
+</form>
 
-        </tr>
-    }
+
+<table class="table table-light" background-image = url("~/images/download.jpg") />
+<thead>
+    <tr>
+        <th>Lớp</th>
+        <th>Họ và tên</th>
+        <th>Lịch Sử</th>
+        <th>Giới  Tính</th>
+        <th>Ảnh đại diện</th>
+        <th>  </th>
+    </tr>
+</thead>
+@foreach (var student in Model.Students)
+{
+    <tr>
+        <td>@student.Group.GroupName</td>
+        <td>@student.Name</td>
+        <td>@student.History</td>
+        @if (student.Gender == true)
+        {
+            <td>Nam</td>
+        }
+        else
+        {
+            <td>Nữ</td>
+        }
+        <td><img class="imgDd" src="@student.UrlImage" alt="" /></td>
+        <td>
+            <a class="btn btn-primary" asp-controller="Student" asp-action="Detail" asp-route-id="@student.StudentId">Detail</a>
+            <a class="btn btn-primary" asp-controller="Student" asp-action="Edit" asp-route-id="@student.StudentId">Edit</a>
+            <a class="btn btn-primary" asp-controller="Student" asp-action="Delete" asp-route-id="@student.StudentId">Delete</a>
+        </td>
+
+    </tr>
+}
 </table>
 
 <a asp-controller="Student" asp-action="Create">Create Student</a>

@@ -10,5 +10,7 @@ namespace StudentMVC.ViewModels
     {
         public IEnumerable<Student> Students { get; set; }
         public string student { get; set; }
+        public string name { get; set; }
+
     }
 }

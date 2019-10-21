@@ -32,9 +32,27 @@ namespace StudentMVC.Models
             return dbContext.SaveChanges();
         }
 
+        public Student Delete(int id)
+        {
+            var student = GetById(id);
+            if (student != null)
+            {
+                dbContext.Students.Remove(student);
+            }
+            return student;
+        }
+
         public Student GetById(int id)
         {
             return dbContext.Students.Include(g => g.Group).SingleOrDefault(s => s.StudentId == id);
+        }
+
+        public IEnumerable<Student> GetStudentByName(string name)
+        {
+            var result = from s in dbContext.Students.Include(g => g.Group)
+                            where string.IsNullOrEmpty(name) || s.Name.Contains(name)
+                            select s;
+            return result;
         }
 
         public Student Update(Student updateStudent)
@@ -43,5 +61,7 @@ namespace StudentMVC.Models
             entity.State = EntityState.Modified;
             return updateStudent;
         }
+
+        
     }
 }

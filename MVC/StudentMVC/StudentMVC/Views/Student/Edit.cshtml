@@ -13,22 +13,39 @@
         <input asp-for="Name" />
     </div>
     <div class="form-group">
+        <h4>Update link image</h4>
+    </div>
+    <div class="form-group">
         <label asp-for="UrlImage"></label>
         <input asp-for="UrlImage" />
     </div>
+    @*<div class="form-group">
+        <label asp-for="UrlImage">Ảnh đại diện</label>
+        <input class="form-control-file" type="file" asp-for="UrlImage" />
+    </div>*@
+
     <div class="form-group">
         <label asp-for="History"></label>
         <input asp-for="History" />
     </div>
     <div class="form-group">
-        <label asp-for="Gender"></label>
-        <input asp-for="Gender" />
+        <div class="col">
+            <label asp-for="Gender"></label>
+            <div class="form-check">
+                <input class="form-check-input" value="true" asp-for="Gender" />
+                <label asp-for="Gender">Nam</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" value="false" asp-for="Gender" />
+                <label asp-for="Gender">Nữ</label>
+            </div>
+        </div>
     </div>
     <div class="form-group">
         <label asp-for="GroupId"></label>
         <input asp-for="GroupId" />
     </div>
-    <button type="submit" class="btn btn-primary" >Save</button>
+    <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="List">Back List</a>
 </form>
 

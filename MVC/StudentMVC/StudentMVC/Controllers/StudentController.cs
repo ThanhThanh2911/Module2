@@ -23,10 +23,13 @@ namespace StudentMVC.Controllers
         {
             studentsListViewModel.Students = studentRepository.GetAll;
             studentsListViewModel.student = "Xin chào!!!";
+            studentsListViewModel.Students = studentRepository.GetStudentByName(studentsListViewModel.name);
 
             //ViewBag.student = "Xin chào!!!";
+
             return View(studentsListViewModel);
         }
+
 
         [HttpGet]
         public IActionResult Create()
@@ -84,5 +87,33 @@ namespace StudentMVC.Controllers
             
             return RedirectToAction("Detail", new { id = student.StudentId});                     
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? id, Student student)
+        {
+            if (id.HasValue)
+            {
+                student = studentRepository.GetById(id.Value);
+            }
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return View(student);
+        }
+
+        [HttpPost]
+        public IActionResult Delete([Bind] Student student)
+        {
+            if (student.StudentId > 0)
+            {
+                studentRepository.Delete(student.StudentId);
+                studentRepository.Commit();
+                return RedirectToAction("List", new { id = student.StudentId });
+            }           
+            return View();
+        }
+
+        
     }
 }
