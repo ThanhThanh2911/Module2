@@ -12,9 +12,8 @@ namespace StudentMVC.Models
         {
             this.dbContext = dbContext;
         }
-        public IEnumerable<Group> GetAll()
-        {
-            return dbContext.Groups.ToList();
-        }
+
+        IEnumerable<Group> IGroupRepository.GetAll => dbContext.Groups;
+
     }
 }

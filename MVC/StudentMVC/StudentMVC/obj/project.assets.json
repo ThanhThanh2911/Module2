@@ -8933,11 +8933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Module2\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\StudentMVC.csproj",
+      "projectUniqueName": "E:\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\StudentMVC.csproj",
       "projectName": "StudentMVC",
-      "projectPath": "E:\\Module2\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\StudentMVC.csproj",
+      "projectPath": "E:\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\StudentMVC.csproj",
       "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
-      "outputPath": "E:\\Module2\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\obj\\",
+      "outputPath": "E:\\Module2\\Module2\\MVC\\StudentMVC\\StudentMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",

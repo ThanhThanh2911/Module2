@@ -6,6 +6,6 @@ namespace StudentMVC.Models
 {
     public interface IGroupRepository
     {
-        IEnumerable<Group> GetAll();
+        IEnumerable<Group> GetAll { get; }
     }
 }

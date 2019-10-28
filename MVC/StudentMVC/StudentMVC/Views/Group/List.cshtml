@@ -1,0 +1,19 @@
+﻿
+@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<form method="get">
+    @foreach (var student in Model)
+    {
+        <div>
+            <div>@student.UrlImage</div>
+            <div>@student.Name</div>
+            <div>@student.History</div>
+        </div>
+    }
+</form>
+

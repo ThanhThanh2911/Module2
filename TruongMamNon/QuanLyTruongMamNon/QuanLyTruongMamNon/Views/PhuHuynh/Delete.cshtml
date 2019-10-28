@@ -1,0 +1,17 @@
+﻿@model PhuHuynh
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<form method="post">
+    <h4>Ten phu huynh: @Model.TenPhuHuynh</h4>
+    <h4>Email: @Model.Email</h4>
+
+    <br/>
+    <br/>
+
+    <button class="btn btn-danger" type="submit">Delete</button>
+    <a asp-action="List">Back List</a>
+</form>

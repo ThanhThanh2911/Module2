@@ -30,7 +30,6 @@ namespace StudentMVC.Controllers
             return View(studentsListViewModel);
         }
 
-
         [HttpGet]
         public IActionResult Create()
         {

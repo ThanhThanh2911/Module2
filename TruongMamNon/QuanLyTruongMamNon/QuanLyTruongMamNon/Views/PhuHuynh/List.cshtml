@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PhuHuynh>
+@{
+    ViewData["Title"] = "List";
+}
+
+<a asp-controller="PhuHuynh" asp-action="Create">Them phu huynh</a>
+
+<form method="get">
+    <div class="input-group">
+        <input type="search" name="name" value=""/>
+        <span>
+            <button><i class="fas fa-search" style="font-size: 20px"></i></button>
+        </span>  
+    </div>
+
+</form>
+
+<h1>List</h1>
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Tên Phụ Huynh</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    @foreach (var phuHuynh in Model)
+    {
+        <tr>
+            <td>@phuHuynh.TenPhuHuynh</td>
+            <td>@phuHuynh.Email</td>
+            <td>
+                <a class="btn btn-primary" asp-controller="PhuHuynh" asp-action="Detail" asp-route-id="@phuHuynh.Id">Detail</a>
+                <a class="btn btn-primary" asp-controller="PhuHuynh" asp-action="Edit" asp-route-id="@phuHuynh.Id">Edit</a>
+                <a class="btn btn-primary" asp-controller="PhuHuynh" asp-action="Delete" asp-route-id="@phuHuynh.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Group>
+
+
+
+
+<div class="dropdown">
+    <button asp-controller="Student" asp-action="Index" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        @foreach (var group in Model)
+        {
+            <li>
+                <a class="dropdown-item" asp-controller="Group" asp-action="List" asp-route-id="@group.GroupId">@group.GroupName</a>
+            </li>
+        }
+        <li class="divider"></li>
+        <li>
+            <a class="dropdown-item" asp-controller="Student" asp-action="List" asp-route-GroupName="">View All Student</a>
+        </li>
+    </ul>
+</div>
