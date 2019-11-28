@@ -1,0 +1,32 @@
+﻿@model Drink
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+<div class="row">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="control-label"></label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="ImgDrink" class="control-label"></label>
+            <input asp-for="ImgDrink" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="DrinkTypeId" class="control-label"></label>
+            <select asp-for="DrinkTypeId" class="form-control" asp-items="ViewBag.Name">
+            </select> 
+        </div>
+        <button class="btn btn-danger" type="submit">Save</button>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back List</a>
+</div>

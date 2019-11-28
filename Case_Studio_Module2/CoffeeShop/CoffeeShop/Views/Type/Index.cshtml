@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Drink>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<h4>@ViewBag.Drink</h4>
+<form method="get">
+    @foreach (var item in Model)
+    {        
+        <div>
+            <div><img src="@Url.Content("~/images/"+item.ImgDrink)" alt="Coffee Shop" /></div>
+            <div>@item.Name</div>
+            <div>@item.Price</div>
+        </div>
+    }
+</form>

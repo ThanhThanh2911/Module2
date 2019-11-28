@@ -1,0 +1,15 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+
+<form action="/" method="get">
+    <h4>Id: @Model.Id</h4>
+    <h4>Id: @Model.Name</h4>
+    <h4>Id: @Model.Birthday</h4>
+    <h4>Id: @Model.Group.GroupName</h4>
+</form>
+
+<a asp-action="Index">Back List</a>

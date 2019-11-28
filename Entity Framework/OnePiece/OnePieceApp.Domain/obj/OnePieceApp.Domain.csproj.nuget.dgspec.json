@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {}
+    "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {
+    "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj",
+        "projectUniqueName": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj",
         "projectName": "OnePieceApp.Domain",
-        "projectPath": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj",
+        "projectPath": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj",
         "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
-        "outputPath": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\obj\\",
+        "outputPath": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",

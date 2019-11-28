@@ -1,0 +1,50 @@
+﻿@using ContactManagement.Models
+@model IEnumerable<Contact>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="get">
+    <div class="input-group">
+        <input type="search" name="SearchStudent" />
+        <span>
+            <button class="btn btn-primary" type="submit">Search</button>
+        </span>
+    </div>
+</form>
+
+<h1>List</h1>
+
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Họ</th>
+            <th>Tên</th>
+            <th>Số điện thoại</th>
+            <th>Email</th>
+            <th>Địa chỉ</th>
+            <th>Quê quán</th>
+            <th>Hoạt động</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Ten</td>
+            <td>@item.Ho</td>
+            <td>@item.SDT</td>
+            <td>@item.Email</td>
+            <td>@item.DiaChi</td>
+            <td>@item.QueQuan.Name</td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Contact" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                <a class="btn btn-primary" asp-controller="Contact" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<a class="btn btn-primary" asp-controller="Contact" asp-action="Create">Create New</a>

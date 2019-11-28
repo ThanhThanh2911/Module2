@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ProductType>
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>LOẠI ĐỒ UỐNG</th>
+        </tr>
+    </thead>
+    @foreach (var productType in Model)
+    {
+        <tr>
+            <td>@productType.ProductTypeId</td>
+            <td>@productType.ProductTypeName</td>
+        </tr>
+    }
+
+</table>

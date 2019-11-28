@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Drink>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    img{
+        height: 80px;
+        width: 100px;
+    }
+</style>
+
+<div>
+    <a asp-controller="Drink" asp-action="Create">Create New</a>
+</div>
+
+<h1>Index</h1>
+
+<table class="table table-dark">
+    <thead class="table table-light">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Type</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td><img src="@Url.Content("~/images/"+item.ImgDrink)" alt="Coffee Shop" /></td>
+            <td>@item.DrinkType.Name</td>
+            <td>
+                <a asp-controller="Drink" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                <a asp-controller="Drink" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a asp-controller="Drink" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>

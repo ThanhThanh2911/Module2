@@ -1,0 +1,44 @@
+﻿@using ContactManagement.Models
+@model Contact
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Ten" class="control-label"></label>
+        <input asp-for="Ten" class="form-control"/>
+        <span asp-validation-for="Ten" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ho" class="control-label"></label>
+        <input asp-for="Ho" class="form-control"/>
+        <span asp-validation-for="Ho" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SDT" class="control-label"></label>
+        <input asp-for="SDT" class="form-control"/>
+        <span asp-validation-for="SDT" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control"/>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DiaChi" class="control-label"></label>
+        <input asp-for="DiaChi" class="form-control"/>
+        <span asp-validation-for="DiaChi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="QueQuanId" class="control-label"></label>
+        <input asp-for="QueQuanId" class="form-control"/>
+        <span asp-validation-for="QueQuanId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-group">Save</button>
+    <a asp-action="Index">Back List</a>
+</form>

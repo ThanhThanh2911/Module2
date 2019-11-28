@@ -1,0 +1,16 @@
+﻿@model Drink
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Thông tin</h1>
+
+<div class="row">
+    <form method="get">
+        <h4>Id: @Model.Id</h4>
+        <h4>Name: @Model.Name</h4>
+        <h4>Price: @Model.Price</h4>
+        <h4>Image: @Model.ImgDrink</h4>
+        <h4>Type: @Model.DrinkType.Name</h4>
+    </form>
+</div>

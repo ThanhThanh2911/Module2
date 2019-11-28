@@ -1,0 +1,24 @@
+﻿@using ContactManagement.Models
+@model Contact
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+
+<form method="post">
+    <h3>Are you sure you want to delete this student?</h3>
+
+    <h4>Họ: @Model.Ho</h4>
+    <h4>Tên: @Model.Ten</h4>
+    <h4>Số điện thoại: @Model.SDT</h4>
+    <h4>Email: @Model.Email</h4>
+    <h4>Địa chỉ: @Model.DiaChi</h4>
+    <h4>Quê quán: @Model.QueQuan.Name</h4>
+    
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index">Back List</a>
+</form>

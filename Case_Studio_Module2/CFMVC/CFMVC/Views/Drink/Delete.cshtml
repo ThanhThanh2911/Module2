@@ -1,0 +1,22 @@
+﻿@model Drink
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Xóa</h1>
+
+<div class="row">
+    <form method="post">
+        <h4>Id: @Model.Id</h4>
+        <h4>Name: @Model.Name</h4>
+        <h4>Price: @Model.Price</h4>
+        <h4>Image: @Model.ImgDrink</h4>
+        <h4>Type: @Model.DrinkType.Name</h4>
+
+        <button class="btn btn-danger" type="submit">Xóa</button>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Trở lại danh sách</a>
+</div>

@@ -1,0 +1,49 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .menus .menu-img {
+        width: 50%;
+    }
+</style>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5 pb-2">
+            <div class="col-md-12 text-center heading-section ftco-animate">
+                <span class="subheading">Specialties</span>
+                <h2 class="mb-4">New Menu</h2>
+            </div>
+        </div>
+        <div class="row no-gutters d-flex align-items-stretch">
+            @foreach (var pr in Model.Drinks)
+            {
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                    <div class="menus d-sm-flex ftco-animate align-items-stretch">
+                        <div class="menu-img img" style="background-image: url(images/@pr.ImgDrink);"></div>
+                        <div class="text d-flex align-items-center">
+                            <div>
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>@pr.Name</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">$@pr.Price</span>
+                                    </div>
+                                </div>
+                                <p>
+                                    <a class="btn btn-success" id="cartButton" asp-controller="Table" asp-action="AddToTable" asp-route-drinkId="@pr.Id">
+                                        Add to table
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

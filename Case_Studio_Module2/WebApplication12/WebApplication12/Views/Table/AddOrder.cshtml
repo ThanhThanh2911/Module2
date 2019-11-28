@@ -1,0 +1,61 @@
+﻿@model TableViewModel
+@{
+    ViewData["Title"] = "AddOrder";
+}
+
+<h1>AddOrder</h1>
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Selected Amount</th>
+                <th>Drink</th>
+                <th class="text-right">Price</th>
+                <th class="text-right">Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Table.Orders != null)
+            {
+                @foreach (var item in Model.Table.Orders)
+                {
+                    <tr>
+                        <td class="text-center">@item.Amount</td>
+                        <td class="text-left">@item.Product.ProductName</td>
+                        <td class="text-right">@item.Product.Price.ToString()</td>
+                        <td class="text-right">@((item.Amount * item.Product.Price).ToString())</td>
+                        <td class="text-center">
+                            <a class="btn btn-danger" asp-controller="Table" asp-action="Add" asp-route-drinkId="@item.Product.ProductId">+</a>
+                            <a class="btn btn-danger" asp-controller="Table" asp-action="Mul" asp-route-drinkId="@item.Product.ProductId">-</a>
+                            <a class="btn btn-danger" asp-controller="Table" asp-action="RemoveFromTable" asp-route-drinkId="@item.Product.ProductId">x</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total: </td>
+                <td class="text-right">
+                    @Model.TableTotal.ToString()
+                </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <div class="btn-group">
+            <a class="btn btn-success" asp-controller="Bill" asp-action="Payment">Payment</a>
+            @*<div class="btn-group">*@
+            <a class="btn btn-primary" asp-controller="Product" asp-action="Index" asp-route-tableId="@Model.Table.TableId">
+                Chon Do Uong
+                @* @await Component.InvokeAsync("TypeMenu")*@
+            </a>
+            @*</div>*@
+        </div>
+    </div>
+</div>
+

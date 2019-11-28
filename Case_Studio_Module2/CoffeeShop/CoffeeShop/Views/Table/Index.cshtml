@@ -1,0 +1,53 @@
+﻿@model TableViewModel
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Selected Amount</th>
+                <th>Drink</th>
+                <th class="text-right">Price</th>
+                <th class="text-right">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Table.Orders)
+            {
+                <tr>
+                    <td class="text-center">@item.Amount</td>
+                    <td class="text-left">@item.Drink.Name</td>
+                    <td class="text-right">@item.Drink.Price.ToString("c")</td>
+                    <td class="text-right">@((item.Amount*item.Drink.Price).ToString("c"))</td>
+                    <td class="text-center">
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="Add" asp-route-drinkId="@item.Drink.DrinkTypeId">+</a>
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="Mul" asp-route-drinkId="@item.Drink.DrinkTypeId">-</a>
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="RemoveFromTable" asp-route-drinkId="@item.Drink.DrinkTypeId">x</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total: </td>
+                <td class="text-right">
+                    @Model.TableTotal.ToString("c")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <div class="btn-group">
+            <a class="btn btn-success" asp-controller="Bill" asp-action="Payment">Payment</a>
+            <a class="btn-group">
+                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Add more drink<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">content</a></li>
+                </ul>
+            </a>
+        </div>
+    </div>
+</div>
+

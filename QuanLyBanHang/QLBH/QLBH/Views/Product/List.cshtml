@@ -1,31 +1,50 @@
-﻿@model Product
+﻿@model IEnumerable<Product>
 @{
     ViewData["Title"] = "List";
 }
 
-<h1>List</h1>
-
 <style>
     img {
-        width: 500px;
-        height: 350px;
+        width: 100px;
+        height: 100px;
     }
 </style>
-<h2 class="mb-4">Detail Product</h2>
-<div id="detailProduct">
-    <div class="IMGProduct" style="float: left;">
-        <img src="@Url.Content("~/img/"+Model.ImgProduct)" />
-    </div>
-    <div class="InfoProduct" style="float: left; margin-left: 3%;">
-        <span class="one-half">Tên sản phẩm: @Model.ProductName</span><br />
-        <span class="one-half">Loại sản phẩm: @ViewBag.ProductType</span>
-        <div class="one-forth">
-            <span class="price">Giá: $@Model.Price</span>
-        </div>
-        <span>Địa chỉ: @Model.ProductionAddress</span>
-        <div>
-            <a href="#" class="btn btn-primary">Order now</a>
-        </div>
-    </div>
+
+<div>
+    <a asp-controller="Product" asp-action="Create">Create New</a>
 </div>
-<div style="clear: both"></div>
+
+
+<div class="container">
+    <h1>List</h1>
+
+    <table class="table table">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>TÊN ĐỒ UỐNG</th>
+                <th>GIÁ</th>
+                <th>ẢNH ĐỒ UỐNG</th>
+                <th>LOẠI ĐỒ UỐNG</th>
+
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>
+                    <img src="@Url.Content("~/img/"+item.ImgProduct)" />
+                </td>
+                <td>@item.ProductType.ProductTypeName</td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+
+

@@ -1,0 +1,33 @@
+﻿@model Account
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Tạo tài khoản</h1>
+<div class="row">
+    <form enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label asp-for="UserName" class="control-label"></label>
+            <input asp-for="UserName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="ConfirmPassword" class="control-label"></label>
+            <input asp-for="ConfirmPassword" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+        <button class="btn btn-danger" type="submit">Đăng ký</button>
+
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Trở lại Home</a>
+</div>
+

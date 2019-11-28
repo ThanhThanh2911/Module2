@@ -1,0 +1,54 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="ProductName"></label>
+        <input type="text" asp-for="ProductName" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input type="text" asp-for="Price" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ImgProduct"></label>
+        <input type="text" asp-for="ImgProduct" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input type="text" asp-for="Description" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDay"></label>
+        <input type="text" asp-for="StartDay" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EndDay"></label>
+        <input type="text" asp-for="EndDay" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductionAddress"></label>
+        <input type="text" asp-for="ProductionAddress" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductTypeId"></label>
+        <select asp-for="ProductTypeId" class="form-control" asp-items="ViewBag.ProductTypeId">
+            <option value="value">ProductType</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewProduct"></label>
+        <input type="text" asp-for="NewProduct" />
+    </div>
+
+    <button type="submit">Save</button>
+
+</form>
+
+<div>
+    <a asp-action="List">Back List</a>
+</div>

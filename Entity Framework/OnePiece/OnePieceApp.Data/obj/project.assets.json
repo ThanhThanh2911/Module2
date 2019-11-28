@@ -3639,11 +3639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\OnePieceApp.Data.csproj",
+      "projectUniqueName": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\OnePieceApp.Data.csproj",
       "projectName": "OnePieceApp.Data",
-      "projectPath": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\OnePieceApp.Data.csproj",
+      "projectPath": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\OnePieceApp.Data.csproj",
       "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
-      "outputPath": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\obj\\",
+      "outputPath": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3659,8 +3659,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {
-              "projectPath": "E:\\Module2\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj"
+            "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj": {
+              "projectPath": "E:\\Module2\\Module2\\Entity Framework\\OnePiece\\OnePieceApp.Domain\\OnePieceApp.Domain.csproj"
             }
           }
         }

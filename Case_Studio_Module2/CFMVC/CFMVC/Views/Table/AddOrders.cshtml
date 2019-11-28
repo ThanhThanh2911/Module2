@@ -1,0 +1,56 @@
+﻿@model TableViewModel
+@{
+    ViewData["Title"] = "AddOrders";
+}
+
+<h1>AddOrders</h1>
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Đồ uống</th>
+                <th>Số lượng</th>
+                <th class="text-right">Giá</th>
+                <th class="text-right">Tổng</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Table.Orders)
+            {
+                <tr>
+                    <td class="text-left">@item.Drink.Name</td>
+                    <td class="text-center">@item.Amount</td>
+                    <td class="text-right">@item.Drink.Price.ToString()</td>
+                    <td class="text-right">@((item.Amount * item.Drink.Price).ToString())</td>
+                    <td class="text-center">
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="Add" asp-route-drinkId="@item.Drink.DrinkTypeId">+</a>
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="Mul" asp-route-drinkId="@item.Drink.DrinkTypeId">-</a>
+                        <a class="btn btn-danger" asp-controller="Table" asp-action="RemoveFromTable" asp-route-drinkId="@item.Drink.DrinkTypeId">x</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total: </td>
+                <td class="text-right">
+                    @Model.TableTotal.ToString()
+                </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <div class="btn-group">
+            @*<a class="btn btn-success" asp-controller="Bill" asp-action="Payment">Payment</a>*@
+            <div class="btn-group">
+                <a>
+                    @await Component.InvokeAsync("TypeMenu")
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

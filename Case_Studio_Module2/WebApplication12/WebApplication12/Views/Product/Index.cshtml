@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    img {
+        width: 120px;
+        height: 100px;
+    }
+</style>
+
+<h1>List Product</h1>
+
+<div class="container">
+
+    <table class="table table-light">
+        <thead class="table table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th> </th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@string.Format("{0:0,0}", item.Price)</td>
+                <td><img src="@Url.Content("~/images/"+item.ImgProduct)" alt="Coffee Shop" /></td>
+                <td>
+                    <a class="btn btn-success" id="tableButton" asp-controller="Product" asp-action="AddToTables" asp-route-id="@item.ProductId" >Choose</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

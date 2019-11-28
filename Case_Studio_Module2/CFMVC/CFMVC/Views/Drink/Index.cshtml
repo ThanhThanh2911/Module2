@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Drink>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<style>
+    img {
+        height:100px;
+        width: 120px;
+    }
+</style>
+
+<div>
+    <a class="btn btn-success" asp-controller="Drink" asp-action="Create">
+        <span class="fas fa-plus"></span>Thêm mới đồ uống
+    </a>
+</div>
+
+<h1>Danh sách đồ uống</h1>
+
+<table class="table table-light">
+    <thead class="table">
+        <tr>
+            <th>ID</th>
+            <th>Tên đồ uống</th>
+            <th>Giá</th>
+            <th>Ảnh</th>
+            <th>Loại đồ uống</th>
+            <th>  </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@string.Format("{0:0,0}", item.Price)</td>
+            <td><img src="@Url.Content("~/images/"+item.ImgDrink)" alt="Coffee Shop" /></td>
+            <td>@item.DrinkType.Name</td>
+            <td>
+                <a class="btn btn-success" asp-controller="Drink" asp-action="Detail" asp-route-id="@item.Id">
+                    <span class="fas fa-plus"></span>Thông tin
+                </a>
+                <a class="btn btn-success" asp-controller="Drink" asp-action="Edit" asp-route-id="@item.Id">
+                    <span class="fas fa-pencil"></span>Sửa
+                </a>
+                <a class="btn btn-success" asp-controller="Drink" asp-action="Delete" asp-route-id="@item.Id">
+                    <span class="fa fa-trash"></span>Xóa
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>

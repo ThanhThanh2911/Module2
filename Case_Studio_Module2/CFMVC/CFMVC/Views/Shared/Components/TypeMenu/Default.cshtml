@@ -1,0 +1,22 @@
+﻿@model IEnumerable<DrinkType>
+
+
+<div class="dropdown">
+    @*<nav class="menu">*@
+        <a class="btn btn-default dropdown-toggle" asp-controller="Drink" asp-action="Index" asp-route-Name="" data-toggle="dropdown">Loại Đồ Uống
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a class="dropdown-item" asp-controller="Type" asp-action="Index" asp-route-id="@item.DrinkTypeId">@item.Name</a>
+                </li>
+            }
+            <li>
+                <a class="dropdown-item" asp-controller="Drink" asp-action="List" asp-route-Name="">Tất cả đồ uống</a>
+            </li>
+        </ul>
+
+    @*</nav>*@
+</div>
