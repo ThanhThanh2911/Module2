@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SSML/.vs/SSML/v16
+/SSML/SSML.Web/obj
+/SSML/.vs/SSML
+/SSML/SSML.Web/bin/Debug/netcoreapp2.2
