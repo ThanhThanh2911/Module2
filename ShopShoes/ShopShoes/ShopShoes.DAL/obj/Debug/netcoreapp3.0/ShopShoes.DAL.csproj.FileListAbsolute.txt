@@ -1,0 +1,5 @@
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.DAL\bin\Debug\netcoreapp3.0\ShopShoes.DAL.Interface.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.DAL\bin\Debug\netcoreapp3.0\ShopShoes.Domain.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.DAL\obj\Debug\netcoreapp3.0\ShopShoes.DAL.csprojAssemblyReference.cache
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.DAL\obj\Debug\netcoreapp3.0\ShopShoes.DAL.AssemblyInfoInputs.cache
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.DAL\obj\Debug\netcoreapp3.0\ShopShoes.DAL.AssemblyInfo.cs

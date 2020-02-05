@@ -1,0 +1,8 @@
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\bin\Debug\netcoreapp2.2\ShopShoes.Domain.deps.json
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\bin\Debug\netcoreapp2.2\ShopShoes.Domain.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\bin\Debug\netcoreapp2.2\ShopShoes.Domain.pdb
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\obj\Debug\netcoreapp2.2\ShopShoes.Domain.AssemblyInfoInputs.cache
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\obj\Debug\netcoreapp2.2\ShopShoes.Domain.AssemblyInfo.cs
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\obj\Debug\netcoreapp2.2\ShopShoes.Domain.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\obj\Debug\netcoreapp2.2\ShopShoes.Domain.pdb
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.Domain\obj\Debug\netcoreapp2.2\ShopShoes.Domain.csprojAssemblyReference.cache

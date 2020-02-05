@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "ShopShoes.Domain/1.0.0": {
+        "runtime": {
+          "ShopShoes.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopShoes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

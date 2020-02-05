@@ -1,0 +1,396 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes\\ShopShoes.csproj": {}
+  },
+  "projects": {
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj",
+        "projectName": "ShopShoes.BAL.Interface",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\ShopShoes.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\ShopShoes.BAL.csproj",
+        "projectName": "ShopShoes.BAL",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\ShopShoes.BAL.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj"
+              },
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj",
+        "projectName": "ShopShoes.DAL.Interface",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\ShopShoes.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\ShopShoes.DAL.csproj",
+        "projectName": "ShopShoes.DAL",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\ShopShoes.DAL.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj",
+        "projectName": "ShopShoes.Domain",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes\\ShopShoes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes\\ShopShoes.csproj",
+        "projectName": "ShopShoes",
+        "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes\\ShopShoes.csproj",
+        "packagesPath": "C:\\Users\\viettelstore.vn\\.nuget\\packages\\",
+        "outputPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viettelstore.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL.Interface\\ShopShoes.BAL.Interface.csproj"
+              },
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\ShopShoes.BAL.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.BAL\\ShopShoes.BAL.csproj"
+              },
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL.Interface\\ShopShoes.DAL.Interface.csproj"
+              },
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\ShopShoes.DAL.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.DAL\\ShopShoes.DAL.csproj"
+              },
+              "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj": {
+                "projectPath": "E:\\Module2\\Module2\\ShopShoes\\ShopShoes\\ShopShoes.Domain\\ShopShoes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

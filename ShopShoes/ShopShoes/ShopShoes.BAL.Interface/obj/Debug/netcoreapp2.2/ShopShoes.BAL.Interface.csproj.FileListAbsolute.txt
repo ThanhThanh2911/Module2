@@ -1,0 +1,11 @@
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\bin\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.deps.json
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\bin\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\bin\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.pdb
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\bin\Debug\netcoreapp2.2\ShopShoes.Domain.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\bin\Debug\netcoreapp2.2\ShopShoes.Domain.pdb
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.csprojAssemblyReference.cache
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.AssemblyInfoInputs.cache
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.AssemblyInfo.cs
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.csproj.CopyComplete
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.dll
+E:\Module2\Module2\ShopShoes\ShopShoes\ShopShoes.BAL.Interface\obj\Debug\netcoreapp2.2\ShopShoes.BAL.Interface.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopShoes.BAL.Interface\ShopShoes.BAL.Interface.csproj" />
+    <ProjectReference Include="..\ShopShoes.DAL.Interface\ShopShoes.DAL.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
